@@ -26,7 +26,8 @@ export default function FilesService(){
             }
 
             try {
-                const apiBase = 'http://135.116.227.174:5000';
+                const ip = 'http://127.0.0.1';
+                const apiBase = `${ip}:5000`;
                 const result = await fetch(`${apiBase}/upload`, {
                     method: 'POST',
                     body: formData,
