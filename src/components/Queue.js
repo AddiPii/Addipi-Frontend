@@ -29,4 +29,10 @@ export default function Queue(){
     useEffect(() => {
         fetchQueue();
     }, []);
+
+    return(
+        <div id="queue">
+            
+        </div>
+    );
 }
