@@ -3,6 +3,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import FilesService from './components/FilesService';
 import NavBar from './components/NavBar';
+import Queue from './components/Queue';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/print" element={<FilesService />} />
       </Routes>
       <NavBar />
+      <Queue />
     </div>
   );
 }
