@@ -28,6 +28,7 @@ export default function Queue(){
 
     useEffect(() => {
         fetchQueue();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return(
